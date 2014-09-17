@@ -11,4 +11,11 @@
 
 })();
 
-//end
+//Smooth Scrolling
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 12000);
+    return false;
+});
