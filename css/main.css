@@ -41,7 +41,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -126,7 +126,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -136,7 +136,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -146,7 +146,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -157,7 +157,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -168,7 +168,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -179,7 +179,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -190,7 +190,7 @@ body {
     color:black;
     width:100%;
     height: 600px;
-    font-size: 1.2em;
+    font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -221,7 +221,8 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 3px solid #e3e3e8;
+  border-bottom: 3px solid #e3e3e8 ;
+
 }
 #logo {
   float: left;
@@ -239,15 +240,20 @@ header {
 }
 nav {
   float: left;
+    text-decoration: none;
+
 }
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 2.2em 2em;
+  text-decoration: none;
 }
 nav ul li {
   display: inline;
   padding: 0 .4em;
+    text-decoration: none;
+
 }
 nav ul li a {
   color: #ff4629;
@@ -256,9 +262,12 @@ nav ul li a {
   font-size: 1.6em;
   padding-bottom: 1.3em;
   transition: .5s color;
+
 }
 nav ul li a:hover {
   border-bottom: 3px solid #333;
+    text-decoration: none;
+
 }
 #current {
   color: #ff4629;

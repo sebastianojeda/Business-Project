@@ -16,6 +16,6 @@
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
-    }, 12000);
+    }, 1000);
     return false;
 });
