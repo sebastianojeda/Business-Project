@@ -95,105 +95,9 @@ body {
         line-height:0;
     }
 }
-@media all and (max-width: 480px){
-    .visual{
-        width: 100%;
-        height:400px;
-        text-align: center;
-    }
-    .logomark{
-        margin-top:30px;
-        height:170px;
-    }
 
-    h1{
-        font-size:2.4em;
-        letter-spacing:6px;
-        line-height:0;
-    }
-    h2{
-        font-size:2.0em;
-        letter-spacing:2px;
-        font-weight:300;
-        line-height:0;
-    }
 
-}
 
-.content-box-2{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
-.content-box-3{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
-.content-box-4{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
-
-.content-box-5{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
-
-.content-box-6{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
-
-.content-box-7{
-      text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
-
-.content-box-8{
-       text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
-}
 
 
 
@@ -418,9 +322,111 @@ background-image:url('http://i.imgur.com/dzgQEBP.jpg?1');
 
 /*MEDIA QUERY*/
 
+
+
+@media all and (max-width: 480px){
+    .visual{
+        width: 100%;
+        height:400px;
+        text-align: center;
+    }
+    .logomark{
+        margin-top:30px;
+        height:170px;
+    }
+
+    h1{
+        font-size:2.4em;
+        letter-spacing:6px;
+        line-height:0;
+    }
+    h2{
+        font-size:2.0em;
+        letter-spacing:2px;
+        font-weight:300;
+        line-height:0;
+    }
+
+    .content-box-2{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+.content-box-3{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+.content-box-4{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+
+.content-box-5{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+
+.content-box-6{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+
+.content-box-7{
+      text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+
+.content-box-8{
+       text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 600px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+
+}
+
 @media (max-width: 320px) {
 
-  body{
+ /* body{
     font-family: 'Muli', 'Century Gothic', 'sans-serif';
     font-size:100%;
     margin:0;
@@ -448,17 +454,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .content-box-2{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+   width: 100%;
 }
 .content-box-3{
         text-align: center;
