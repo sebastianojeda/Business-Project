@@ -1,4 +1,14 @@
 
+
+//Smooth Scrolling
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 2000);
+    return false;
+});
+
 //All of this code goes to my hamburger.//
 (function(){
     var $mainWrapper = $("#main-wrapper");
@@ -11,12 +21,9 @@
 
 })();
 
-//Smooth Scrolling
 
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 2000);
-    return false;
+$(".nav-btn").click(function(){
+      $("#sidebar").toggleClass("active");
+      $("#content").toggleClass("active");
+      $(".nav-btn").toggleClass("active");
 });
-
