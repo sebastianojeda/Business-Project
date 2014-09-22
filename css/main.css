@@ -14,9 +14,12 @@ h1{
 margin-left: 50%;
 margin-top: 10%;
 }
+
 p{ 
-   font-size: x-large;
-   margin-left: 50%; 
+   font-size: large;
+margin-right: 50%;
+margin-top: 5%;
+text-align: -webkit-auto;
 }
 
 body { 
@@ -32,7 +35,7 @@ body {
 
 .menu-filler{
     width:100%;
-    height:100px;
+    height:50px;
 }
 
 .content-box-1{
@@ -40,64 +43,91 @@ body {
     background-color:azure;
     color:black;
     width:100%;
-    height: 600px;
+    height: 800px;
     font-size: 1em;
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
 
-@media all and (min-width: 761px) {
-    .visual{
-        width: 100%;
-        height:600px;
+
+
+
+.content-box-2{
         text-align: center;
-    }
-    .logomark{
-        margin-top:30px;
-        height:320px;
-    }
-    
-    h1{
-        font-size:4.1em;
-        letter-spacing:11px;
-        line-height:0;
-    }
-    h2{
-        font-size:1.55em;
-        letter-spacing:4px;
-        font-weight:300;
-        line-height:0;
-    }   
-    .content-box-1{
-    font-size: 1.6em;
-    }
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+
+
 }
-@media all and (max-width: 760px) {
-    .visual{
-        width: 100%;
-        height:500px;
+.content-box-3{
         text-align: center;
-    }
-    .logomark{
-        margin-top:30px;
-        height:250px;
-    }
-    
-    h1{
-        font-size:3.4em;
-        letter-spacing:9px;
-        line-height:0;
-    }
-    h2{
-        font-size:1.3em;
-        letter-spacing:3px;
-        font-weight:300;
-        line-height:0;
-    }
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+.content-box-4{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
 }
 
+.content-box-5{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
 
+.content-box-6{
+        text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
 
+.content-box-7{
+      text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
+
+.content-box-8{
+       text-align: center;
+    background-color:azure;
+    color:black;
+    width:100%;
+    height: 800px;
+    font-size: 1em;
+    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+    padding:35px 10% 35px 10%;
+}
 
 
 
@@ -179,77 +209,6 @@ nav ul li a:hover {
 }
 
 
-
-
-
-
-/*hovering images*/
-
-.carre_couleur
-{
-  width:300px;
-  height: 300px;
-  display: inline-block;
-  position: relative;
-  margin-top: 0px;
-}
-.base_hov .retract
-{
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform-origin: 50% 20%; 
-  -webkit-transform: scale(1);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform-origin: 50% 20%;
-  -moz-transform: scale(1);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform-origin: 50% 20%;
-  -ms-transform: scale(1);
-  transition: all 200ms ease-in;
-  transform-origin: 50% 20%;
-  transform: scale(1);
-  width:300px;
-  height: 300px;
-  position: absolute;
-  z-index: 2;
-  left:0;
-}
-.base_hov:hover .retract
-{
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(0.6);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(0.6);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(0.6);
-  transition: all 200ms ease-in;
-  transform: scale(0.6);
-}
-.acced
-{
-  width: 180px;
-  padding:10px;
-  bottom:0; 
-  position:absolute;
-  z-index: 1; 
-  text-align: left;
-}
-.big_acced
-{
-  color:#ffffff;
-  font-size:20px;
-  font-weight: 400;
-  font-family:'Roboto';
-}
-.middle_acced
-{
-  color:#ffffff;
-  font-size:15px;
-  font-weight: 400;
-  font-family:'Roboto';
-}
-
-
-
  /*Facebook, google+, and twitter icons*/
 
 .social-icons{
@@ -320,109 +279,73 @@ background-image:url('http://i.imgur.com/dzgQEBP.jpg?1');
   -o-transition: 0.5s ease-in-out;
 }
 
+
+
+
 /*MEDIA QUERY*/
 
-
-
-@media all and (max-width: 480px){
+@media screen and (min-width: 959px) {
     .visual{
         width: 100%;
-        height:400px;
+        height:600px;
         text-align: center;
     }
     .logomark{
         margin-top:30px;
-        height:170px;
+        height:320px;
     }
-
+    
     h1{
-        font-size:2.4em;
-        letter-spacing:6px;
+        font-size:4.1em;
+        letter-spacing:11px;
         line-height:0;
     }
     h2{
-        font-size:2.0em;
-        letter-spacing:2px;
+        font-size:1.55em;
+        letter-spacing:4px;
         font-weight:300;
         line-height:0;
+    }   
+    .content-box-1{
+    font-size: 1.6em;
     }
+    .content-box-1{
+   width: 100%;
+}
 
-    .content-box-2{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+img{
+  width: 100%
+}
+
+
+.content-box-2{
+      width: 100%;
 }
 .content-box-3{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+       width: 100%;
 }
 .content-box-4{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+         width: 100%;
 }
 
 .content-box-5{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+       width: 100%;
 }
 
 .content-box-6{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+        width: 100%;
 }
 
 .content-box-7{
-      text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+       width: 100%;
 }
 
 .content-box-8{
-       text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+    width: 100%;
 }
 
 }
+
 
 @media (max-width: 320px) {
 
@@ -455,73 +378,38 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }*/
+img{
+  width: 100%;
+}
+
+.content-box-1{
+    width: 100%;
+}
 
 .content-box-2{
-   width: 100%;
+      width: 100%;
 }
 .content-box-3{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+        width: 100%;
 }
 .content-box-4{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+       width: 100%;
 }
 
 .content-box-5{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+      width: 100%;
 }
 
 .content-box-6{
-        text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+         width: 100%;
 }
 
 .content-box-7{
-      text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+       width: 100%;
 }
 
 .content-box-8{
-       text-align: center;
-    background-color:azure;
-    color:black;
-    width:100%;
-    height: 600px;
-    font-size: 1em;
-    box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
-    padding:35px 10% 35px 10%;
+  width: 100%;
 }
 
 
