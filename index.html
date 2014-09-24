@@ -13,14 +13,23 @@
    
 </head>
 <body>
-   <div class="stuck-head">
-        <a class="nav-btn" id="nav-open" href="#sidebar"menu><span>menu</span></a>
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
-    <div id="leonardo">
-    <div id="sidebar">
-          <nav class="navigation">
-            <ul>
-             <li><a href="#seafood"  class="anchorLink">Camerons Seafood</a></li>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+         <li><a href="#seafood"  class="anchorLink">Camerons Seafood</a></li>
       <li><a href="#home" id="current" class="anchorLink">HOME</a></li>
       <li><a href="#aboutus" class="anchorLink">ABOUT US</a></li>
       <li><a href="#menu" class="anchorLink">MENU</a></li>
@@ -29,10 +38,17 @@
       <li><a href="#contact" class="anchorLink">CONTACT</a></li>
       <li><a href="#privatedinning" class="anchorLink">PRIVATE DINNING</a></li>
       <li><a href="#bar" class="anchorLink">BAR</a></li>
+      <li><a href="#TOP"> <span class="anchorLink"></span>BACK TO TOP</a></li>
+                 
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+     <!--         -->
           
-            </ul>
-          </nav>
-    </div>
+      
 
    
 
@@ -196,10 +212,9 @@
     </div>
 
      <a name="bar" id="bar"><div class=content-box-8></a>
-        
-
         <h1>BAR</h1>
-         <img src="img/cocktail.jpg">       
+         <img src="img/cocktail.jpg">  
+     <a href="#top"><span >back to top</span></a>
         
     </div>
 
@@ -208,8 +223,7 @@
     
 
          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-         
+         <script type="text/javascript" src="js/bootstrap.min.js"></script>         
          <script type="text/javascript" src="js/main.js"></script>
         
 </body>
