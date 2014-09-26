@@ -28,4 +28,8 @@ $(".nav-btn").click(function(){
       $(".nav-btn").toggleClass("active");
 });
 
-//BACK TO top
+//TAB
+$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
