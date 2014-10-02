@@ -15,10 +15,16 @@ margin-left: 50%;
 margin-top: 10%;
 }
 
+h5{
+ margin-left: 0%;
+margin-top: 3%;
+text-align: center;
+}
+
 p{ 
- font-size: large;
+ font-size: x-large;
 margin-left: 0%;
-margin-top: 5%;
+margin-top: 3%;
 text-align: center;
 }
 
@@ -41,11 +47,11 @@ background: url(http://www.camerons4fish.com/images/background-slide05.jpg) no-r
 
 .content-box-1{
     text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
     height: 800px;
-    font-size: 1em;
+    
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -55,11 +61,11 @@ background: url(http://www.camerons4fish.com/images/background-slide05.jpg) no-r
 
 .content-box-2{
         text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
-    height: 800px;
-    font-size: 1em;
+    height: 700px;
+   
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 
@@ -70,62 +76,62 @@ background: url(http://www.camerons4fish.com/images/background-slide05.jpg) no-r
     background-color:#BD1E2D;
     color:black;
     width:100%;
-    height: 800px;
-    font-size: 1em;
+    height: 700px;
+   
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
 .content-box-4{
         text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
-    height: 800px;
-    font-size: 1em;
+    height: 700px;
+ 
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
 
 .content-box-5{
         text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
-    height: 800px;
-    font-size: 1em;
+    height: 700px;
+   
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
 
 .content-box-6{
         text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
-    height: 800px;
-    font-size: 1em;
+    height: 700px;
+    
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
 
 .content-box-7{
       text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
-    height: 800px;
-    font-size: 1em;
+    height: 700px;
+    
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
 
 .content-box-8{
        text-align: center;
-    background-color:azure;
+    background-color:#BD1E2D;
     color:black;
     width:100%;
     height: 800px;
-    font-size: 1em;
+  
     box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
     padding:35px 10% 35px 10%;
 }
@@ -214,6 +220,11 @@ background-image:url('http://i.imgur.com/dzgQEBP.jpg?1');
 
 
 
+
+
+
+
+
 /*MEDIA QUERY*/
 
 @media screen and (min-width: 959px) {
@@ -228,22 +239,15 @@ background-image:url('http://i.imgur.com/dzgQEBP.jpg?1');
     }
     
     h1{
-        font-size:4.1em;
-        letter-spacing:11px;
-        line-height:0;
+        font-size: 40px;
+        
     }
     h2{
-        font-size:1.55em;
-        letter-spacing:4px;
-        font-weight:300;
-        line-height:0;
+        font-size: 12px;
+       
     }   
-    .content-box-1{
-    font-size: 1.6em;
-    }
-    .content-box-1{
-   width: 100%;
-}
+ 
+
 p{ 
 font-size: 16px;
 
@@ -283,37 +287,20 @@ img{
 }
 
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
- /* body{
-    font-family: 'Muli', 'Century Gothic', 'sans-serif';
-    font-size:100%;
-    margin:0;
-    padding:0;
-    border:0;
-    display:block;
-    color:white;
-    background-color:darkslategray;
-
-}
-
-h1{
-margin-left: 50%;
-margin-top: 10%;
-}
-p{ 
-   font-size: x-large;
-   margin-left: 50%; 
-}
 
 body { 
-  background-color:324252;
-  background: url(http://www.camerons4fish.com/images/background-slide05.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
+width: 100%;
+}
+h1{
+  font-size: 25px;
+}
+ h4{
+     font-size: 12px;
+       
+    }  
+}
 p{ 
 font-size: 12px;
 
